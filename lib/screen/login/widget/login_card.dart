@@ -39,7 +39,7 @@ class LoginCard extends StatelessWidget {
             ),
             blackText1(
               'Username',
-              20,
+              15,
               fontWeight: FontWeight.w700,
             ),
             const SizedBox(
@@ -51,7 +51,7 @@ class LoginCard extends StatelessWidget {
             const SizedBox(
               height: 10,
             ),
-            blackText('Password', 20, fontWeight: FontWeight.w700),
+            blackText('Password', 15, fontWeight: FontWeight.w700),
             const SizedBox(
               height: 10,
             ),

@@ -17,10 +17,10 @@ class ForgotPasswordWidget extends StatelessWidget {
             onPressed: () {
               onPressed();
             },
-            child: Text(
+            child: const Text(
               "Forgot Password ?",
               style: TextStyle(
-                color: Colors.grey.shade600,
+                color: Color(0xff8C8C8C),
               ),
             ),
           ),

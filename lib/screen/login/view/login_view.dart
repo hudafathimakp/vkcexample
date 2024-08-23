@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:vkc_web_example/common_widget/color/color.dart';
+import 'package:vkc_web_example/screen/dashboard/widget/dashboard_card.dart';
 import 'package:vkc_web_example/screen/login/widget/login_card.dart';
 
 class LoginView extends StatelessWidget {
@@ -23,7 +24,8 @@ class LoginView extends StatelessWidget {
                 const SizedBox(
                   height: 80,
                 ),
-                const LoginCard()
+                const LoginCard(),
+            
               ],
             ),
           )

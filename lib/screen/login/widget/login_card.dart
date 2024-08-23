@@ -5,6 +5,8 @@ import 'package:vkc_web_example/common_widget/text/text.dart';
 import 'package:vkc_web_example/screen/login/widget/forgot_password.dart';
 import 'package:vkc_web_example/screen/login/widget/login_textfield.dart';
 
+import '../../dashboard/view/dashboard_view.dart';
+
 class LoginCard extends StatelessWidget {
   const LoginCard({
     super.key,
@@ -68,8 +70,16 @@ class LoginCard extends StatelessWidget {
             ),
             CommonButtonWithGradient(
               label: 'Login',
-              click: () {},
-            )
+              click: () {
+                // Navigator.of(context).push(
+                //   MaterialPageRoute(
+                //     builder: (context) =>
+                //        const DashboardView(), 
+                //   ),
+                // );
+              },
+            ),
+           
           ],
         ),
       ),

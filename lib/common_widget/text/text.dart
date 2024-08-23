@@ -38,22 +38,24 @@ Text colorText(String label,
   );
 }
 
-// Text colorText1(String label,
-//     {TextAlign? textAlign,
-//     FontWeight? fontWeight = FontWeight.w400,
-//     TextOverflow? textOverflow,
-//     Color? color = const Color(0xff6E7C87)}) {
-//   return Text(
-//     label,
-//     textAlign: textAlign,
-//     style: TextStyle(
-//         fontFamily: 'Inter',
-//         overflow: textOverflow,
-//         color: color,
-//         fontSize: 14,
-//         fontWeight: fontWeight),
-//   );
-// }
+Text blackText1(
+  String label,
+  double fontSize, {
+  TextAlign? textAlign,
+  FontWeight? fontWeight = FontWeight.w400,
+  TextOverflow? textOverflow,
+}) {
+  return Text(
+    label,
+    textAlign: textAlign,
+    style: TextStyle(
+        fontFamily: 'Nunito Sans',
+        overflow: textOverflow,
+        color: Color(0xff333333),
+        fontSize: fontSize,
+        fontWeight: fontWeight),
+  );
+}
 
 // Text normalText(String label, double fontSize,
 //     {FontWeight? fontWeight = FontWeight.w500,

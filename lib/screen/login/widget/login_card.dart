@@ -14,7 +14,7 @@ class LoginCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 450,
-      width: 500,
+      width: 400,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(12),
         color: AppColor.scaffoldBackgroundColor,
@@ -37,7 +37,11 @@ class LoginCard extends StatelessWidget {
             const SizedBox(
               height: 30,
             ),
-            blackText('Username', 20, fontWeight: FontWeight.w700),
+            blackText1(
+              'Username',
+              20,
+              fontWeight: FontWeight.w700,
+            ),
             const SizedBox(
               height: 10,
             ),

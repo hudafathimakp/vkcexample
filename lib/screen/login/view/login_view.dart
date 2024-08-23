@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:vkc_web_example/common_widget/color/color.dart';
 import 'package:vkc_web_example/screen/login/widget/login_card.dart';
 
 class LoginView extends StatelessWidget {
@@ -7,6 +8,7 @@ class LoginView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: AppColor.scaffoldBackgroundColor,
       body: Row(
         children: [
           Image.asset('asset/image/login_logo.png', height: double.infinity),
@@ -19,7 +21,7 @@ class LoginView extends StatelessWidget {
                   height: 50,
                 ),
                 const SizedBox(
-                  height: 50,
+                  height: 80,
                 ),
                 const LoginCard()
               ],
